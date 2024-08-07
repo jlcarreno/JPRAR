@@ -17,7 +17,7 @@ public class Multiplicar {
             respuesta = scanner.next();
 
         } while (respuesta.equalsIgnoreCase("S"));
-        
+
                     System.out.println("¡Gracias por usar el programa!");
                     scanner.close();
         }
