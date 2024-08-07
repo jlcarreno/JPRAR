@@ -11,10 +11,13 @@ public class Multiplicar {
 
             System.out.println("Tabla de multiplicar del " + numero + ":");
             for (int i = 1; i <= 10; i++) {
-                System.out.println(numero + " x " + i + (numero * i));
+                System.out.println(numero + " x " + i + " = " + (numero * i));
             }
             System.out.println("¿Quiere ver otra tabla? (S/N): ");
+            respuesta = scanner.next();
+
         } while (respuesta.equalsIgnoreCase("S"));
+        
                     System.out.println("¡Gracias por usar el programa!");
                     scanner.close();
         }
